@@ -1,0 +1,30 @@
+KEY VALUE:
+
+Resume contains tremandous amount of info that are ofthen overlooked during the hiring process. Our goal is to exploit underlaying values of resumes for discovering awesome potential candidates.
+--------------------------------------------------------------------------------
+Implementation:
+
+1. Import data - Gather keyword from resume files
+
+(5,000 x 40 in JSON)
+
+2. ML - train system model for correlation scores between skills, education & job categories.
+
+python library: SciKit-Learn
+
+3. Data visualization: Output analysis diagram and judgement(recommendation level).
+
+--------------------------------------------------------------------------------
+System model usage: 
+
+Enter degree major and return belonging department or college. Give correlation score between departments. Continuous high correlation implies high consistency. Certain combinations(or majors) are considered a bonus of interdisciplinary studies.
+
+Same usage applies to jobs. Enter profession and return belonging industry. Give correlation between industries. Continuous high correlation implies high consistency. Certain combinations are considered a bonus of adaptability.
+
+Enter skill and return belonging industry. Check correlation between job industry and education department.
+--------------------------------------------------------------------------------
+APIs and DBs:
+
+https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview
+
+https://www.mymajors.com/college-majors/electrical-and-electronics-engineering/
